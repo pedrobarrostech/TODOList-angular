@@ -1,0 +1,43 @@
+<html ng-app="todoList">
+<style>
+    .box {
+        width: 400px;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+    }
+
+    .taskTodo{
+        background-color:#fff2cc !important;
+    }
+    .taskDone{
+        background-color:#d9ead3 !important;
+    }
+</style>
+
+<head>
+    <script src="lib/js/jquery-3.1.1.js"></script>
+    <script src="lib/js/angular.js"></script>
+    <script src="lib/js/bootstrap.js"></script>
+    <script src="src/components/todo/todo.module.js"></script>
+    <script src="src/components/todo/main/todoMain.component.js"></script>
+    <script src="src/components/todo/form/todoForm.component.js"></script>
+    <script src="src/components/todo/list/todoList.component.js"></script>
+    <script src="src/components/todo/item/todoListItem.component.js"></script>
+    <script src="src/components/todo/testeLista.component.js"></script>
+    <link href="lib/bootstrap/bootstrap.css" rel="stylesheet" />
+    <title>TODO List</title>
+</head>
+<script type="text/javascript">
+    
+</script>
+
+<body>
+    <div class="box">
+        <todo-component></todo-component>
+    </div>
+</body>
+
+</html>
